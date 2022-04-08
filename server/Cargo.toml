@@ -1,5 +1,5 @@
 [package]
-authors = []
+authors = ["{{authors}}"]
 description = ""
 
 name = "server"

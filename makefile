@@ -57,5 +57,5 @@ dep_graph:
 		--all-deps \
 		--include-orphans \
 		--subgraph common index server \
-		--subgraph-name "Rust Web Application Index" \
+		--subgraph-name "{{project-name}} index" \
 		| dot -Tpng > ../dependencies.png 

@@ -3,7 +3,7 @@ FROM debian:latest
 ENV PORT=80
 EXPOSE $PORT
 
-WORKDIR /usr/src/application/
+WORKDIR /usr/src/{{project-name}}/
 
 COPY common ./common
 COPY index ./index
